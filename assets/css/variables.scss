@@ -1,0 +1,18 @@
+@import url("https://use.typekit.net/tha4xsq.css");
+
+/* variables */
+$dark: #2E2F30;
+$dark_light: #4f5153;
+$light: #F3F2EE;
+$gradient_color_1: #14D2AB;
+$gradient_color_2: #0E73B7;
+$gradient: linear-gradient(172deg, $gradient_color_1 0%, $gradient_color_2 100%);
+$test-color: fade-out($dark, 0.9);
+$border: 1px solid $dark;
+$headline-size: 19vmin;
+$headline-line-spacing-max: $headline-size * 0.85;
+$headline-height: (46pt, $headline-line-spacing-max);
+$serif: swear-display, swear-text, Georgia, serif;
+$serif-body: swear-text, Georgia, serif;
+$sanserif: elido, source-sans-pro, Helvetica, Arial, sans-serif;
+$hover-height: 25vh;

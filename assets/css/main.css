@@ -1,0 +1,104 @@
+@import url("https://use.typekit.net/tha4xsq.css");
+/* variables */
+/* global */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background: #F3F2EE;
+  color: #2E2F30;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 95%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+/* grid */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1800px;
+}
+
+.col-1 {
+  -ms-flex-preferred-size: 14.28571%;
+      flex-basis: 14.28571%;
+}
+
+.col-2 {
+  -ms-flex-preferred-size: 28.57143%;
+      flex-basis: 28.57143%;
+}
+
+.col-3 {
+  -ms-flex-preferred-size: 42.85714%;
+      flex-basis: 42.85714%;
+}
+
+.col-4 {
+  -ms-flex-preferred-size: 57.14286%;
+      flex-basis: 57.14286%;
+}
+
+.col-5 {
+  -ms-flex-preferred-size: 71.42857%;
+      flex-basis: 71.42857%;
+}
+
+.col-6 {
+  -ms-flex-preferred-size: 85.71429%;
+      flex-basis: 85.71429%;
+}
+
+.col-7 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.col {
+  /* background-color: rgba(51, 54, 54, 0.1);
+    border: LavenderBlush 2px solid; */
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.centered {
+  position: relative;
+  left: 50%;
+  /* bring your own prefixes */
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-80%);
+          transform: translateY(-80%);
+}
+/*# sourceMappingURL=main.css.map */

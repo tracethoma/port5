@@ -1,0 +1,27 @@
+@import 'variables.scss';
+
+/* Home page hero */
+.container-hero {
+    /* height: clamp(600px, 80vh, 1200px); */
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: left;
+    clear: both;
+    width: 90%;
+}
+
+.hero {
+    max-width: 1600px;
+    padding: 10vmin 0 10vmin 0;
+}
+
+.hero h1 {
+    font-family: swear-display, Georgia, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: clamp( 40pt, $headline-size, 160pt);
+    text-align: left;
+    color: var(--dark);
+    line-height: clamp(40pt, $headline-line-spacing-max, 160pt);
+}
