@@ -2,12 +2,11 @@ import Vue from 'vue'
 import * as THREE from 'three'
 
 /*
-import 'imports-loader?THREE=three!three/examples/js/loaders/OBJLoader.js'
-import 'imports-loader?THREE=three!three/examples/js/loaders/MTLLoader.js'
-import 'imports-loader?THREE=three!three/examples/js/loaders/PLYLoader.js' 
-import 'imports-loader?THREE=three!three/examples/js/loaders/GLTFLoader.js'  
-import 'imports-loader?THREE=three!three/examples/js/controls/OrbitControls.js'
-
+import 'imports-loader?THREE=three@three/examples/js/loaders/OBJLoader.js'
+import 'imports-loader?THREE=three@three/examples/js/loaders/MTLLoader.js'
+import 'imports-loader?THREE=three@three/examples/js/loaders/PLYLoader.js' 
+import 'imports-loader?THREE=three@three/examples/js/loaders/GLTFLoader.js'  
+import 'imports-loader?THREE=three@three/examples/js/controls/OrbitControls.js'
 
 Vue.use({
 
@@ -18,6 +17,7 @@ Vue.use({
  }
 })
 */
+
 if (process.BROWSER_BUILD) { 
   Vue.use(THREE, {name: 'three'})
 }
